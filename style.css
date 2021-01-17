@@ -171,6 +171,10 @@ h3 {
 }
 
 
+p.ppp{
+	margin-bottom: 500px;
+}
+
 input.polatxt {
 	background-color:;
 	width: 50%;
@@ -185,7 +189,9 @@ input.polatxt {
 	margin: 5px;
 	
 }
-
+p.ooo{
+	margin-bottom:50px;
+}
 
 
 .button{
@@ -207,17 +213,51 @@ margin: 10px;
 }
 
  
-@media (max-width: 800px) {
-	#mie{
-		margin:0;
+@media (max-width: 1080px) {
+	#wrapper{
+		max-width: 100%;
 	}
 	nav a {
-		width: 50%;
-		font-size: 22px;
+		width: 95%;
+		font-size: 50px;
+		border-radius: 4px;
+		color: black;
+		margin: 10px;
 	}
-@media (max-width: 500px) {
+	p.ppp{
+	margin-bottom: 500px;
+}
+@media (max-width: 900px) {
+	
+	p.ppp{
+	margin-bottom: 200px;
+}
+
+@media (max-width: 900px) {
+	
+	p.ppp{
+	margin-bottom: 270px;
+}
+
+	@media (max-width: 850px) {
+	
+	p.ppp{
+	margin-bottom: 220px;
+}
+
+	@media (max-width: 700px) {
+	
+	p.ppp{
+	margin-bottom: 100px;
+}
+	
+@media (max-width: 660px) {
 	nav a {
 		width: 100%;
 	}
+	p.ppp{
+	margin-bottom: 30px;
+}
+	
 }
 }
