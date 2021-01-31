@@ -22,7 +22,7 @@
     z-index: 1000;
 }
 
-#cookieinfo h6 {
+#cookieinfo h6 {  
     font-size: 16px;
     font-weight: bold;
     color: #cdd7da;
@@ -50,10 +50,10 @@
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    background-color: #ff6000;
+     background-color: #ff6000; 
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
 }
-
+ 
 #cookieinfo a:hover {
     background-color: #ff7925; 
 }
@@ -87,13 +87,14 @@ header img {
 	display: block;
 	}
 nav {
+	
     overflow: hidden;
 }
 
 nav a {
 	font-family: Roboto, arial;
     display: block;
-    width: 25%;
+    width: 20%;
     float: left;
     color: black;
     text-align: center;
@@ -131,6 +132,11 @@ img.left {
 	width: 35%;
 	padding: 0px 10px;
 	
+}
+img.rightt {
+	margin: 0px 10px 10px 0px;
+	width:60%;
+	padding: 0px 10px;
 }
 img.right {
 	float: right;
@@ -233,8 +239,54 @@ legend.legendy{
 
  
 @media (max-width: 1080px) {
+	
+	footer {
+		font-size: 36px;
+	}
+	
+	img.rightt {
+	
+	width:80%;
+	
+}
+	
+	#cookieinfo h6 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #cdd7da;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
+    margin-bottom: 7px;
+	}
+	
+#cookieinfo p {
+    font-size: 22px;
+    color: #afb4bc;
+    line-height: 1.5em;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
+}
+#cookieinfo a {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 72px;
+    height: 72px;
+    border-radius: 36px;
+    line-height: 22px;
+    font-size: 52px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+	background-color: rgba(0,0,0,0.0);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+	
 	#wrapper{
 		max-width: 100%;
+		font-size: 30px;
+	}
+	#opis{
+		font-size: 30px;
 	}
 	nav a {
 		width: 95%;
@@ -255,34 +307,43 @@ legend.legendy{
 	}
 	fieldset.ramka{
 		width:100%;
+		
 	}
 	p.ppp{
 	margin-bottom: 500px;
+	font-size:30px;
+}
+	p.oopp{
+		font-size:30px;
+	}
+
+
 }
 @media (max-width: 900px) {
 	
 	p.ppp{
 	margin-bottom: 200px;
 }
+}
 
 @media (max-width: 900px) {
 	
 	p.ppp{
 	margin-bottom: 270px;
-}
-
+	}
+	}
 	@media (max-width: 850px) {
 	
 	p.ppp{
 	margin-bottom: 220px;
-}
-
+	}
+	}
 	@media (max-width: 700px) {
 	
 	p.ppp{
 	margin-bottom: 100px;
-}
-	
+	}
+	}
 @media (max-width: 660px) {
 	nav a {
 		width: 100%;

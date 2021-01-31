@@ -11,58 +11,57 @@
 </head>
 <body>
 	<div id="wrapper">
+	<div id="header">
 		<header>
 			<img src="zdjecia/steam.png" alt="factory - header"/>
 		</header>
-		
+	</div>
 		<nav>
 			<a class="menu " 
-			href="index.html">O nas</a><a class="menu" 
+			href="index.html">O nas</a><a class="menu active" 
 			href="Kurtyna2w1.html">Kurtyna 2w1</a><a class="menu"
 			href="Zamow.html">Wyceń</a><a class="menu" 
-			href="montaz.html">Montaż</a><a class="menu  active" 
+			href="montaz.html">Montaż</a><a class="menu" 
 			href="kontakt.html">Kontakt</a>
 		</nav>
 		
 		<section>
 			<article>
 			
-			<div id = "opis">
-			<h1>Kontakt </h1>
-			
-			<p class="oopp">
-			<strong>Kurtyny z PCV </strong>
-			<br>
-			<br>
-			Zapraszamy do kontaktu pod adresem mailowym:<br><br>
-			biuro@steam-factory.pl
-			
-			
+			<h1>Kurtyna 2w1</h1>
+			<p class="oopp">		Kurtyny PCV 2 w 1 (kurtyny hybrydowe ze swobodnym przejściem) – Kurtyny przeznaczone do dużych bram, tam gdzie prowadzony 
+			jest ruch pieszy, oraz przebiegają trasy wózków widłowych. 
+			Zadbaj o bezpieczeństwo swoich pracowników. 
 			<br>
 			<br>
 			
-			Oraz pod numerem telefonu:
+				Tam gdzie producent zaleca stosowanie pasów o większej powierzchni, można zastosować naszą kurtynę hybrydową,
+			która pozwala na swobodne przemieszczanie się w ruchu pieszym oraz ogranicza wyeksploatowanie się pasów.
 			<br>
 			<br>
-			691-494-207 - Dział sprzedaży
+			<img img class="rightt" src="zdjecia/Prz.png" alt="schemat kurtyny 2w1" /> 
 			<br>
-			504-634-102 - Dział sprzedaży
-			
-			
+			Z naszego doświadczenia wynika, że w dużych zakładach magazynowych, występuje problem pogodzenia mobilności przejścia pomiędzy strefami
+			odgrodzonymi kurtyną z wytrzymałością pasów. Wychodzimy tym problemom naprzeciw z naszym produktem, 
+			który składa się z dwóch kurtyn, kurtyny szerokiej (tak zwanej właściwej) przystosowanej do przejazdu wózkami widłowymi i wózkami paletowym, 
+			oraz kurtyny wąskiej, umieszczonej na skraju przejścia, która ma na celu ułatwienie przejścia pracownikom. 
+			Przejście przeznaczone dla pieszych oddzielone jest czerwonym pasem ostrzegawczym zapewniającym zwiększone bezpieczeństwo pracowników, 
+			odgradzając ciąg transportowy materiałów od ciągu komunikacji pieszej.  
+
 			</p>
-			
-			</div>
-			
 			
 			
 			</article>
+			
 			
 		</section>
 		
 		<footer>
 		Kontakt pod numerem telefonu 691-494-207 oraz 504-634-102
 		</footer>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
+	
+	</div>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G8H4XDZMDZ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -71,9 +70,8 @@
 
   gtag('config', 'G-G8H4XDZMDZ');
 </script>
-		
-	</div>
-	<script>
+
+<script>
 (function() {
     //copyright JGA 2013 under MIT License
     var monster={set:function(e,t,n,r){var i=new Date,s="",o=typeof t,u="";r=r||"/",n&&(i.setTime(i.getTime()+n*24*60*60*1e3),s="; expires="+i.toGMTString());if(o==="object"&&o!=="undefined"){if(!("JSON"in window))throw"Bummer, your browser doesn't support JSON parsing.";u=JSON.stringify({v:t})}else u=escape(t);document.cookie=e+"="+u+s+"; path="+r},get:function(e){var t=e+"=",n=document.cookie.split(";"),r="",i="",s={};for(var o=0;o<n.length;o++){var u=n[o];while(u.charAt(0)==" ")u=u.substring(1,u.length);if(u.indexOf(t)===0){r=u.substring(t.length,u.length),i=r.substring(0,1);if(i=="{"){s=JSON.parse(r);if("v"in s)return s.v}return r=="undefined"?undefined:unescape(r)}}return null},remove:function(e){this.set(e,"",-1)},increment:function(e,t){var n=this.get(e)||0;this.set(e,parseInt(n,10)+1,t)},decrement:function(e,t){var n=this.get(e)||0;this.set(e,parseInt(n,10)-1,t)}};
@@ -91,7 +89,7 @@
 
     link.setAttribute('href', '#');
     link.setAttribute('title', 'Zamknij');
-    link.innerHTML = 'x';
+    link.innerHTML = 'X';
 
     function clickHandler(e) {
         if (e.preventDefault) {
